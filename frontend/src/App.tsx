@@ -1,10 +1,13 @@
 import React from 'react';
+import Navbar from './components/Navbar';
 import logo from './logo.svg';
+
 
 function App() {
   return (
- <h1>Pagina Principal</h1>
-  );
+    <Navbar/>
+    
+    );
 }
 
 export default App;
